@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/home/santosc/.nuget/packages/": {}
+    "/home/ders/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
+      "projectUniqueName": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
       "projectName": "platform.Infrastructure",
-      "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
-      "packagesPath": "/home/santosc/.nuget/packages/",
-      "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/obj/",
+      "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
+      "packagesPath": "/home/ders/.nuget/packages/",
+      "outputPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/santosc/.nuget/NuGet/NuGet.Config"
+        "/home/ders/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
-              "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
+            "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+              "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
             }
           }
         }
@@ -98,7 +98,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

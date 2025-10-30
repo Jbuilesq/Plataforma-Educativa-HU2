@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yPT210GVwfA=",
+  "dgSpecHash": "QC/DBHLPM4o=",
   "success": true,
-  "projectFilePath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
+  "projectFilePath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "/home/santosc/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "/home/santosc/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
+    "/home/ders/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
+    "/home/ders/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
   ],
   "logs": []
 }

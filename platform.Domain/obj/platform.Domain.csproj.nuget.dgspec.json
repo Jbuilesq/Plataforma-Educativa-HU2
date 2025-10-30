@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {}
+    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {}
   },
   "projects": {
-    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "projectUniqueName": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
         "projectName": "platform.Domain",
-        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
-        "packagesPath": "/home/santosc/.nuget/packages/",
-        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/obj/",
+        "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "packagesPath": "/home/ders/.nuget/packages/",
+        "outputPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/santosc/.nuget/NuGet/NuGet.Config"
+          "/home/ders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
