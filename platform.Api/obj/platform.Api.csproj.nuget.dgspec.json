@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Api/platform.Api.csproj": {}
+    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Api/platform.Api.csproj": {}
   },
   "projects": {
-    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Api/platform.Api.csproj": {
+    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Api/platform.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Api/platform.Api.csproj",
+        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Api/platform.Api.csproj",
         "projectName": "platform.Api",
-        "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Api/platform.Api.csproj",
-        "packagesPath": "/home/mateo/.nuget/packages/",
-        "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Api/obj/",
+        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Api/platform.Api.csproj",
+        "packagesPath": "/home/santosc/.nuget/packages/",
+        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mateo/.nuget/NuGet/NuGet.Config"
+          "/home/santosc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj": {
-                "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj"
+              "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj": {
+                "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj"
               },
-              "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/platform.Infrastructure.csproj": {
-                "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/platform.Infrastructure.csproj"
+              "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj": {
+                "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj"
               }
             }
           }
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -65,6 +71,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,21 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj": {
+    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj",
+        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj",
         "projectName": "platform.Application",
-        "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj",
-        "packagesPath": "/home/mateo/.nuget/packages/",
-        "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/",
+        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj",
+        "packagesPath": "/home/santosc/.nuget/packages/",
+        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mateo/.nuget/NuGet/NuGet.Config"
+          "/home/santosc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -99,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj": {
-                "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj"
+              "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+                "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
               }
             }
           }
@@ -109,7 +129,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -125,26 +151,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj": {
+    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj",
+        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
         "projectName": "platform.Domain",
-        "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj",
-        "packagesPath": "/home/mateo/.nuget/packages/",
-        "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/",
+        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "packagesPath": "/home/santosc/.nuget/packages/",
+        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mateo/.nuget/NuGet/NuGet.Config"
+          "/home/santosc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -162,7 +198,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -178,26 +220,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/platform.Infrastructure.csproj": {
+    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/platform.Infrastructure.csproj",
+        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
         "projectName": "platform.Infrastructure",
-        "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/platform.Infrastructure.csproj",
-        "packagesPath": "/home/mateo/.nuget/packages/",
-        "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/",
+        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
+        "packagesPath": "/home/santosc/.nuget/packages/",
+        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mateo/.nuget/NuGet/NuGet.Config"
+          "/home/santosc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -209,8 +261,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj": {
-                "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj"
+              "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+                "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
               }
             }
           }
@@ -219,7 +271,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -235,12 +293,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
