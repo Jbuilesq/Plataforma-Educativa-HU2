@@ -1,44 +1,46 @@
+using Microsoft.EntityFrameworkCore;
+using webEscuela.Infrastructure.Data; // <= Namespace del DbContext
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Configuration: leer connection string desde env var o appsettings
+var configuration = builder.Configuration;
+var envConn = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+var connectionString = string.IsNullOrWhiteSpace(envConn)
+    ? configuration.GetConnectionString("DefaultConnection")
+    : envConn;
+
+// Registrar DbContext con Pomelo MySQL
+builder.Services.AddDbContext<EscuelaDbContext>(options =>
+{
+    // ServerVersion.AutoDetect funciona bien si la cadena apunta a un servidor MySQL accesible
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+
+// Agregar controladores si existen
+builder.Services.AddControllers();
+
+// Swagger (opcional)
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Plataforma Educativa API", Version = "v1" });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Plataforma Educativa API v1"));
 }
 
-app.UseHttpsRedirection();
+app.UseRouting();
+app.UseAuthorization();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.MapControllers();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
-
+// Si todavía tienes endpoints mínimos (mapGet etc.), mantenlos o móvalos a controladores.
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

@@ -2911,7 +2911,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.EntityFrameworkCore >= 9.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.10",
       "Pomelo.EntityFrameworkCore.MySql >= 9.0.0",
       "platform.Domain >= 1.0.0"
@@ -2958,10 +2957,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[9.0.10, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
