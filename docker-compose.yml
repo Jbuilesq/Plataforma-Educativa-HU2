@@ -1,0 +1,48 @@
+# Fase 1
+# Definimos la version del formato de docker
+version: '3.8'
+
+# Fase 2 Define los contenedores Servicios y configuracion de servicios
+services:
+  
+  # Primer servicio - - - - - - - - - - - 
+  mysql:
+    image: mysql:8.0 # la imagen del mysql
+    container_name: platform-mysql # el contenedor del proyecto
+    environment: # Las configs de la base de datos
+      MYSQL_ROOT_PASSWORD: "20010928" #pasamos la contraseña del user
+      MYSQL_DATABASE: "FirstDockerDataBase" # pasamos la base de datos
+      MYSQL_USER: "managementUser" # Creamos el nuevo usuario
+      MYSQL_PASSWORD: "20010928" # Pasamos la contraseña del nuevo usuario
+      MYSQL_AUTHENTICATION_PLUGIN: "mysql_native_password" # Asegura compatibilidad con clientes .NET
+    
+    ports:
+      - "3308:3306" # Definimos los puertos
+    networks:
+      - platform-network # Asocia este servicio a la red interna llamada
+    restart: unless-stopped # restaura el contenedor si se cae
+    
+  # Segundo servicio - - - - - - - - - - - -
+  paltform.api: # Creamos un nuevo servicio
+    build: # 
+      context: .
+      dockerfile: Dockerfile
+      
+    container_name: platform.api
+    environment:
+        ConnectionStrings_Default: "server=mysql;port=3306;Database=FirstDockerDataBase;Uid=managementUser;Pwd=20010928"
+        ASPNETCORE_ENVIRONMENT: "Develop"
+        ASPNETCORE_URLS: "http://+:8080"
+    depends_on:
+      - mysql
+    ports:
+      - "5000:8080"
+    networks:
+      - platform-network
+    restart: unless-stopped
+
+# Fase 3
+# Crea una red virtual, Permite que los servicios se vean entre si usando sus nombres como host
+networks:
+  platform-network:
+    driver: bridge

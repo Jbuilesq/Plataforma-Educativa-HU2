@@ -1,0 +1,16 @@
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/bin/Debug/net8.0/platform.Infrastructure.deps.json
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/bin/Debug/net8.0/platform.Infrastructure.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/bin/Debug/net8.0/platform.Infrastructure.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/bin/Debug/net8.0/platform.Domain.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/bin/Debug/net8.0/platform.Domain.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.csproj.AssemblyReference.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.AssemblyInfoInputs.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.AssemblyInfo.cs
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.csproj.CoreCompileInputs.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.sourcelink.json
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.csproj.CopyComplete
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/refint/platform.Infrastructure.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/platform.Infrastructure.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Infrastructure/obj/Debug/net8.0/ref/platform.Infrastructure.dll

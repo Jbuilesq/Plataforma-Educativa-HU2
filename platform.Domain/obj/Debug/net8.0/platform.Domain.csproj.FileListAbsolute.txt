@@ -1,0 +1,12 @@
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/bin/Debug/net8.0/platform.Domain.deps.json
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/bin/Debug/net8.0/platform.Domain.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/bin/Debug/net8.0/platform.Domain.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.AssemblyInfoInputs.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.AssemblyInfo.cs
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.csproj.CoreCompileInputs.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.sourcelink.json
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/refint/platform.Domain.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/platform.Domain.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/Debug/net8.0/ref/platform.Domain.dll

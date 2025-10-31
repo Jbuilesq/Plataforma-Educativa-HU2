@@ -1,0 +1,16 @@
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/bin/Debug/net8.0/platform.Application.deps.json
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/bin/Debug/net8.0/platform.Application.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/bin/Debug/net8.0/platform.Application.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/bin/Debug/net8.0/platform.Domain.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/bin/Debug/net8.0/platform.Domain.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.csproj.AssemblyReference.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.AssemblyInfoInputs.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.AssemblyInfo.cs
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.csproj.CoreCompileInputs.cache
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.sourcelink.json
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.csproj.CopyComplete
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/refint/platform.Application.dll
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/platform.Application.pdb
+/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/Debug/net8.0/ref/platform.Application.dll
