@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ns4xs10eapU=",
+  "dgSpecHash": "QH0S9Thw5Sk=",
   "success": true,
-  "projectFilePath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj",
-  "expectedPackageFiles": [
-    "/home/ders/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "/home/ders/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

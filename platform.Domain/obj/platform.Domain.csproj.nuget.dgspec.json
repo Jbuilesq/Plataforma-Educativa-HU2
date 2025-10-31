@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {}
+    "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {}
   },
   "projects": {
-    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+    "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "projectUniqueName": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
         "projectName": "platform.Domain",
-        "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
-        "packagesPath": "/home/ders/.nuget/packages/",
-        "outputPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/obj/",
+        "projectPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ders/.nuget/NuGet/NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,13 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -54,22 +48,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
