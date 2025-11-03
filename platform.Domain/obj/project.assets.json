@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/santosc/.nuget/packages/": {}
+    "/home/mateo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+      "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj",
       "projectName": "platform.Domain",
-      "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
-      "packagesPath": "/home/santosc/.nuget/packages/",
-      "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/obj/",
+      "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj",
+      "packagesPath": "/home/mateo/.nuget/packages/",
+      "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/santosc/.nuget/NuGet/NuGet.Config"
+        "/home/mateo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

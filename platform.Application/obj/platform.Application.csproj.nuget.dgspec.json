@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj": {}
+    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj": {}
   },
   "projects": {
-    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj": {
+    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj",
+        "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj",
         "projectName": "platform.Application",
-        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/platform.Application.csproj",
-        "packagesPath": "/home/santosc/.nuget/packages/",
-        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Application/obj/",
+        "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/platform.Application.csproj",
+        "packagesPath": "/home/mateo/.nuget/packages/",
+        "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/santosc/.nuget/NuGet/NuGet.Config"
+          "/home/mateo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
-                "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
+              "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj": {
+                "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj"
               }
             }
           }
@@ -61,17 +61,17 @@
         }
       }
     },
-    "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+    "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "projectUniqueName": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj",
         "projectName": "platform.Domain",
-        "projectPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
-        "packagesPath": "/home/santosc/.nuget/packages/",
-        "outputPath": "/home/santosc/RiderProjects/Plataforma-Educativa-HU2/platform.Domain/obj/",
+        "projectPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/platform.Domain.csproj",
+        "packagesPath": "/home/mateo/.nuget/packages/",
+        "outputPath": "/home/mateo/Documents/Riwi/Avanzada/C#/Entregables/ProyectHU2/platform.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/santosc/.nuget/NuGet/NuGet.Config"
+          "/home/mateo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
