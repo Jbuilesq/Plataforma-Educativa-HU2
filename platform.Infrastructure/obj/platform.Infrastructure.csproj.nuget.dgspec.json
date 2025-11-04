@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj": {}
+    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "projectUniqueName": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
         "projectName": "platform.Domain",
-        "projectPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/obj/",
+        "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj",
+        "packagesPath": "/home/ders/.nuget/packages/",
+        "outputPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "/home/ders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -48,26 +54,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj": {
+    "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
+        "projectUniqueName": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
         "projectName": "platform.Infrastructure",
-        "projectPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/obj/",
+        "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/platform.Infrastructure.csproj",
+        "packagesPath": "/home/ders/.nuget/packages/",
+        "outputPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "/home/ders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
-                "projectPath": "/home/coders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
+              "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj": {
+                "projectPath": "/home/ders/Escritorio/Plataforma-Educativa-HU2/platform.Domain/platform.Domain.csproj"
               }
             }
           }
@@ -89,7 +105,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -121,12 +143,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
